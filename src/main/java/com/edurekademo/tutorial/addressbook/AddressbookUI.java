@@ -40,6 +40,9 @@ public class AddressbookUI extends UI {
     TextField filter = new TextField();
     Grid contactList = new Grid();
     Button newContact = new Button("New contact");
+    //comment 
+    
+    //codeowners added
 
     // ContactForm is an example of a custom component class
     ContactForm contactForm = new ContactForm();
@@ -103,11 +106,13 @@ public class AddressbookUI extends UI {
         actions.setWidth("100%");
         filter.setWidth("100%");
         actions.setExpandRatio(filter, 1);
+        //branch protection
 
         VerticalLayout left = new VerticalLayout(actions, contactList);
         left.setSizeFull();
         contactList.setSizeFull();
         left.setExpandRatio(contactList, 1);
+        // bug resolved
 
         HorizontalLayout mainLayout = new HorizontalLayout(left, contactForm);
         mainLayout.setSizeFull();
