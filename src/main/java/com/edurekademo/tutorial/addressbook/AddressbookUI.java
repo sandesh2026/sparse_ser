@@ -112,6 +112,7 @@ public class AddressbookUI extends UI {
         left.setSizeFull();
         contactList.setSizeFull();
         left.setExpandRatio(contactList, 1);
+        // bug resolved
 
         HorizontalLayout mainLayout = new HorizontalLayout(left, contactForm);
         mainLayout.setSizeFull();
