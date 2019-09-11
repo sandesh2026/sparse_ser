@@ -104,6 +104,7 @@ public class AddressbookUI extends UI {
         actions.setWidth("100%");
         filter.setWidth("100%");
         actions.setExpandRatio(filter, 1);
+        //branch protection
 
         VerticalLayout left = new VerticalLayout(actions, contactList);
         left.setSizeFull();
